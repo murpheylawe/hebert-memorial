@@ -28,7 +28,7 @@
 </head>
 <!-- To enable The Film section: set data-film-ready="true" on <body> AND place
      videos/two-heberts-remembered.mp4 and videos/two-heberts-poster.jpg in the repo. -->
-<body data-film-ready="false">
+<body data-film-ready="true">
   <div class="granite-noise" aria-hidden="true"></div>
   <a class="skip" href="#main">Skip to content</a>
 
@@ -60,21 +60,18 @@
       </div>
     </section>
 
-    <!-- THE FILM: hidden while data-film-ready is not "true" -->
+    <!-- THE FILM -->
     <section class="film" id="film" aria-label="The Film">
       <div class="wrap reveal">
         <p class="section-label">A short documentary</p>
-        <h2 class="engraved-gold">The Film</h2>
-        <p class="lede">Two Heberts, Remembered: a quiet telling of two lives, two wars, and one surname carried from Acadia to the American memorials.</p>
+        <h2 class="engraved-gold">The Film: Two Heberts, Remembered</h2>
+        <p class="lede">About 9 minutes. Two lives, two wars, and one surname carried from Acadia to the memorials in Washington.</p>
         <div class="film-frame">
-          <video
-            controls
-            preload="none"
-            playsinline
-            poster="videos/two-heberts-poster.jpg"
-            aria-label="Two Heberts, Remembered documentary film">
+          <video controls preload="metadata" playsinline poster="videos/two-heberts-poster.jpg" aria-label="Two Heberts, Remembered, a documentary film of about 9 minutes">
+            <source src="videos/two-heberts-remembered-720p.mp4" type="video/mp4" media="(max-width: 800px)">
             <source src="videos/two-heberts-remembered.mp4" type="video/mp4">
-            Your browser does not support HTML5 video.
+            <source src="videos/two-heberts-remembered-720p.mp4" type="video/mp4">
+            Your browser does not support HTML5 video. <a href="videos/two-heberts-remembered.mp4">Download the film</a>.
           </video>
         </div>
       </div>
@@ -524,6 +521,16 @@
           <a href="https://freepages.rootsweb.com/~acadiancajun/genealogy/famheb.htm" rel="noopener"><span class="site">rootsweb.com</span><span class="title">La Famille Hebert Acadienne (Tim Hebert)</span></a>
           <a href="http://www.acadiansingray.com/Appendices-ATLAL-HEBERT.htm" rel="noopener"><span class="site">acadiansingray.com</span><span class="title">Acadians in Gray, Hebert appendix</span></a>
           <a href="https://querythepast.com/other-franco-americans-berlin-nh-part-1/" rel="noopener"><span class="site">querythepast.com</span><span class="title">Franco-Americans of Berlin, N.H.</span></a>
+        </div>
+
+        <div class="image-credits">
+          <h3>Film credits</h3>
+          <ul>
+            <li><strong>Footage:</strong> archival film and photographs from the National Archives, Library of Congress, National Park Service and Wikimedia Commons (public domain, CC0, CC BY, and CC BY-SA for video only), shown as context; the archival footage never shows either soldier. Photographs of the wall engraving and tribute poster were taken by a visitor at the memorials; photos of Yvon come from the VVMF Wall of Faces.</li>
+            <li><strong>Music:</strong> J. S. Bach, Goldberg Variations (Aria, Variations 13 and 25) and Well-Tempered Clavier Prelude No. 8, performed by Kimiko Ishizaka (Open Goldberg Variations / Open Well-Tempered Clavier, CC0 and public domain); Taps by the United States Army Band (public domain).</li>
+            <li><strong>Narration:</strong> synthetic voice, Microsoft neural text-to-speech "Christopher" (en-US), reading an original script.</li>
+            <li>Every clip, recording and image, with its source and license: <a href="film-sources.md">film-sources.md</a>.</li>
+          </ul>
         </div>
 
         <div class="image-credits">
