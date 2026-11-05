@@ -133,7 +133,7 @@ Natural Earth vector data is in the public domain.
 
 ## Narration
 
-Synthetic narration: Microsoft neural text-to-speech voice "Christopher" (en-US), generated with the open-source edge-tts client. The script is original to this film.
+Synthetic narration: Chatterbox TTS 0.1.7 (Resemble AI), voice-cloned from a LibriSpeech `dev-clean` public-domain clip of speaker 251 (Mark Nelson / LibriVox-derived; OpenSLR resource 12). Settings: exaggeration=0.35, cfg_weight=0.30, temperature=0.7. The script is original to this film. Reference clip used only for cloning; see voice attribution notes shipped with the film assets.
 
 ## Research
 
